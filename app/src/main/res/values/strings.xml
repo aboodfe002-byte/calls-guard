@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English (default). Arabic is in values-ar/strings.xml. -->
+<resources>
+    <string name="app_name" translatable="false">Calls Guard</string>
+
+    <!-- Keep-alive notification -->
+    <string name="keepalive_channel">Protection service</string>
+    <string name="keepalive_title">Calls Guard is running</string>
+    <string name="keepalive_text">Rejecting all calls except allowed numbers</string>
+
+    <!-- Common -->
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="grant">Grant</string>
+    <string name="clear">Clear</string>
+    <string name="undo">Undo</string>
+
+    <!-- Tabs -->
+    <string name="tab_allowed">Allowed</string>
+    <string name="tab_log">Log</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Status card -->
+    <string name="status_off">Protection is off — all calls ring</string>
+    <string name="status_ok">Protection is on ✓</string>
+    <plurals name="status_missing">
+        <item quantity="one">1 permission missing</item>
+        <item quantity="other">%d permissions missing</item>
+    </plurals>
+    <string name="status_tap_show">Tap to show permissions</string>
+    <string name="status_tap_hide">Tap to hide</string>
+
+    <!-- Permissions -->
+    <string name="perm_role_title">Call screening app</string>
+    <string name="perm_role_desc">Required to reject phone-network calls</string>
+    <string name="perm_role_unavailable">This device does not support call screening</string>
+    <string name="perm_contacts_title">Contacts</string>
+    <string name="perm_contacts_desc">Without it, every saved contact rings and favourites ★ don\'t work</string>
+    <string name="perm_listener_title">Notification access</string>
+    <string name="perm_listener_desc">To reject WhatsApp and other app calls</string>
+    <string name="perm_battery_title">Battery optimisation exemption</string>
+    <string name="perm_battery_desc">So the system never stops the app</string>
+    <string name="perm_notif_title">Notifications</string>
+    <string name="perm_notif_desc">For the always-on service notification</string>
+
+    <!-- Add number -->
+    <string name="add_number_title">Add allowed number</string>
+    <string name="field_number">Number</string>
+    <string name="field_number_hint">0512345678 or +966512345678</string>
+    <string name="field_number_invalid">Invalid number</string>
+    <string name="field_name_optional">Name (optional)</string>
+    <string name="from_contacts">From contacts</string>
+
+    <!-- Allowed tab -->
+    <string name="removed_x">Removed %1$s</string>
+    <string name="section_starred">★ Contacts favourites (%1$d) — allowed automatically</string>
+    <string name="starred_empty">No starred contacts. Star a contact in the Contacts app to allow it.</string>
+    <string name="starred_need_contacts">Grant contacts permission to show favourites.</string>
+    <string name="section_numbers">Allowed numbers (%1$d)</string>
+    <string name="numbers_empty">No numbers yet.</string>
+    <string name="swipe_to_delete">Swipe an item to delete it</string>
+    <string name="section_prefixes">Allowed prefixes (%1$d)</string>
+    <string name="prefixes_hint">Example: 920 for unified company numbers, 800 for toll-free, 01 for landlines.</string>
+
+    <!-- Log tab -->
+    <string name="log_none_today">No calls rejected today</string>
+    <plurals name="log_rejected_today">
+        <item quantity="one">1 call rejected today</item>
+        <item quantity="other">%d calls rejected today</item>
+    </plurals>
+    <string name="log_clear">Clear log</string>
+    <string name="log_empty">The log is empty.</string>
+    <string name="log_clear_confirm">Clear the whole rejected-calls log?</string>
+    <string name="hidden_number">Hidden number</string>
+    <string name="source_phone">Phone network</string>
+
+    <!-- Settings tab -->
+    <string name="set_section_blocking">Blocking</string>
+    <string name="set_enabled">Enable blocking</string>
+    <string name="set_enabled_desc">Reject everyone except allowed numbers. When off, all calls ring.</string>
+    <string name="set_app_calls">Reject WhatsApp and app calls</string>
+    <string name="set_app_calls_desc">Rejects WhatsApp, Telegram and other app calls from anyone not allowed.</string>
+    <string name="set_starred">Allow favourites ★</string>
+    <string name="set_starred_desc">Starred contacts are allowed automatically.</string>
+    <string name="set_short">Allow short numbers</string>
+    <string name="set_short_desc">Short service, emergency and government numbers (up to 6 digits) such as 911, 999 and 1909.</string>
+    <string name="set_hidden">Allow hidden numbers</string>
+    <string name="set_hidden_desc">Calls that arrive without a number (private / unknown).</string>
+    <string name="set_section_notif">Notifications &amp; log</string>
+    <string name="set_skip_notif">Hide missed-call notification</string>
+    <string name="set_skip_notif_desc">No notification is shown for rejected calls.</string>
+    <string name="set_skip_log">Don\'t record in the phone\'s call log</string>
+    <string name="set_skip_log_desc">Rejected calls won\'t appear in the Phone app\'s log (they stay in this app\'s log).</string>
+    <string name="set_section_system">System</string>
+    <string name="set_keepalive">Keep the app always running</string>
+    <string name="set_keepalive_desc">A silent permanent notification stops the system from killing the app.</string>
+
+    <!-- Onboarding -->
+    <string name="ob1_title">Call screening app</string>
+    <string name="ob1_body">Make this app the \"call screening app\" so it can reject phone-network calls. Your Samsung Phone app stays exactly as it is.</string>
+    <string name="ob2_title">Contacts &amp; notifications</string>
+    <string name="ob2_body">Contacts permission is required so calls from saved contacts are screened too, and so favourites ★ work.</string>
+    <string name="ob3_title">WhatsApp &amp; background</string>
+    <string name="ob3_body">Notification access lets the app reject WhatsApp and other app calls. The battery exemption stops the system from closing the app.</string>
+    <string name="ob4_title">Add your first allowed number</string>
+    <string name="ob4_body">Add a number now or later. Anyone not on the list will be rejected.</string>
+    <string name="ob_step">Step %1$d of %2$d</string>
+    <string name="ob_added">Added: %1$s</string>
+    <plurals name="ob_starred_count">
+        <item quantity="one">You also have 1 favourite ★ that will be allowed automatically.</item>
+        <item quantity="other">You also have %d favourites ★ that will be allowed automatically.</item>
+    </plurals>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+
+    <!-- Prefix dialog -->
+    <string name="prefix_title">Allow a prefix</string>
+    <string name="prefix_explain">Every number starting with this prefix will be allowed. Example: 920 for unified company numbers, or 01 for all landlines.</string>
+    <string name="prefix_field">Prefix</string>
+    <string name="prefix_hint">920 or 01 or 9661</string>
+    <string name="prefix_help_empty">Type a prefix or pick a suggestion</string>
+    <string name="prefix_invalid">Invalid prefix</string>
+    <string name="prefix_result">Every number starting with %1$s will be allowed</string>
+    <string name="prefix_label_optional">Description (optional)</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="preset_920">Unified numbers (companies &amp; government)</string>
+    <string name="preset_800">Toll-free numbers</string>
+    <string name="preset_01">All Saudi landlines</string>
+    <string name="preset_011">Riyadh &amp; central landlines</string>
+    <string name="preset_012">Makkah, Jeddah &amp; Taif landlines</string>
+    <string name="preset_013">Eastern Province landlines</string>
+    <string name="preset_014">Madinah, Tabuk &amp; north landlines</string>
+    <string name="preset_016">Qassim &amp; Hail landlines</string>
+    <string name="preset_017">Asir, Jazan &amp; Najran landlines</string>
+    <string name="preset_05">All Saudi mobiles</string>
+    <string name="preset_966">All Saudi numbers (reject international only)</string>
+    <string name="preset_uae">UAE</string>
+    <string name="preset_kw">Kuwait</string>
+    <string name="preset_bh">Bahrain</string>
+    <string name="preset_qa">Qatar</string>
+    <string name="preset_om">Oman</string>
+</resources>

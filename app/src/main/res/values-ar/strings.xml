@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- إشعار خدمة البقاء -->
+    <string name="keepalive_channel">خدمة الحماية</string>
+    <string name="keepalive_title">Calls Guard يعمل</string>
+    <string name="keepalive_text">يرفض كل المكالمات ما عدا الأرقام المسموحة</string>
+
+    <string name="add">إضافة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="grant">منح</string>
+    <string name="clear">مسح</string>
+    <string name="undo">تراجع</string>
+
+    <string name="tab_allowed">المسموحة</string>
+    <string name="tab_log">السجل</string>
+    <string name="tab_settings">الإعدادات</string>
+
+    <string name="status_off">الحماية متوقفة — كل المكالمات تمر</string>
+    <string name="status_ok">الحماية تعمل ✓</string>
+    <plurals name="status_missing">
+        <item quantity="zero">لا ينقص شيء</item>
+        <item quantity="one">ناقص صلاحية واحدة</item>
+        <item quantity="two">ناقص صلاحيتين</item>
+        <item quantity="few">ناقص %d صلاحيات</item>
+        <item quantity="many">ناقص %d صلاحية</item>
+        <item quantity="other">ناقص %d صلاحية</item>
+    </plurals>
+    <string name="status_tap_show">اضغط لعرض الصلاحيات</string>
+    <string name="status_tap_hide">اضغط للإخفاء</string>
+
+    <string name="perm_role_title">تطبيق فحص المكالمات</string>
+    <string name="perm_role_desc">ضروري لرفض مكالمات الشبكة</string>
+    <string name="perm_role_unavailable">هذا الجهاز لا يدعم فحص المكالمات</string>
+    <string name="perm_contacts_title">جهات الاتصال</string>
+    <string name="perm_contacts_desc">بدونه تمر مكالمات كل الأسماء المحفوظة، ولا تعمل المفضلة ★</string>
+    <string name="perm_listener_title">الوصول للإشعارات</string>
+    <string name="perm_listener_desc">لرفض مكالمات واتساب والتطبيقات الأخرى</string>
+    <string name="perm_battery_title">الاستثناء من توفير البطارية</string>
+    <string name="perm_battery_desc">حتى لا يوقفه النظام</string>
+    <string name="perm_notif_title">الإشعارات</string>
+    <string name="perm_notif_desc">لإشعار خدمة البقاء الدائم</string>
+
+    <string name="add_number_title">إضافة رقم مسموح</string>
+    <string name="field_number">الرقم</string>
+    <string name="field_number_hint">0512345678 أو +966512345678</string>
+    <string name="field_number_invalid">رقم غير صالح</string>
+    <string name="field_name_optional">الاسم (اختياري)</string>
+    <string name="from_contacts">من جهات الاتصال</string>
+
+    <string name="removed_x">حُذف %1$s</string>
+    <string name="section_starred">★ المفضلة في جهات الاتصال (%1$d) — مسموحة تلقائيًا</string>
+    <string name="starred_empty">لا توجد جهات مميزة بنجمة. ميّز أي اسم بنجمة في تطبيق جهات الاتصال ليُسمح له.</string>
+    <string name="starred_need_contacts">امنح إذن جهات الاتصال لعرض المفضلة.</string>
+    <string name="section_numbers">الأرقام المسموحة (%1$d)</string>
+    <string name="numbers_empty">لا توجد أرقام بعد.</string>
+    <string name="swipe_to_delete">اسحب أي عنصر لحذفه</string>
+    <string name="section_prefixes">البادئات المسموحة (%1$d)</string>
+    <string name="prefixes_hint">مثال: 920 لأرقام الشركات والجهات الموحدة، 800 للأرقام المجانية، 01 للأرقام الأرضية.</string>
+
+    <string name="log_none_today">لم تُرفض أي مكالمة اليوم</string>
+    <plurals name="log_rejected_today">
+        <item quantity="zero">لم تُرفض أي مكالمة اليوم</item>
+        <item quantity="one">رُفضت مكالمة واحدة اليوم</item>
+        <item quantity="two">رُفضت مكالمتان اليوم</item>
+        <item quantity="few">رُفضت %d مكالمات اليوم</item>
+        <item quantity="many">رُفضت %d مكالمة اليوم</item>
+        <item quantity="other">رُفضت %d مكالمة اليوم</item>
+    </plurals>
+    <string name="log_clear">مسح السجل</string>
+    <string name="log_empty">السجل فارغ.</string>
+    <string name="log_clear_confirm">مسح كل سجل المكالمات المرفوضة؟</string>
+    <string name="hidden_number">رقم مخفي</string>
+    <string name="source_phone">شبكة الجوال</string>
+
+    <string name="set_section_blocking">الحظر</string>
+    <string name="set_enabled">تفعيل الحظر</string>
+    <string name="set_enabled_desc">رفض الجميع ما عدا الأرقام المسموحة. عند الإيقاف تمر كل المكالمات.</string>
+    <string name="set_app_calls">رفض مكالمات واتساب والتطبيقات</string>
+    <string name="set_app_calls_desc">يرفض مكالمات واتساب وتيليجرام وغيرها من غير المسموحين.</string>
+    <string name="set_starred">السماح للمفضلة ★</string>
+    <string name="set_starred_desc">جهات الاتصال المميزة بنجمة مسموحة تلقائيًا.</string>
+    <string name="set_short">السماح بالأرقام القصيرة</string>
+    <string name="set_short_desc">أرقام الخدمات والطوارئ والجهات الحكومية القصيرة (حتى 6 أرقام) مثل 911 و999 و1909.</string>
+    <string name="set_hidden">السماح بالأرقام المخفية</string>
+    <string name="set_hidden_desc">المكالمات التي تصل بدون رقم (خاص / غير معروف).</string>
+    <string name="set_section_notif">الإشعارات والسجل</string>
+    <string name="set_skip_notif">إخفاء إشعار المكالمة الفائتة</string>
+    <string name="set_skip_notif_desc">لا يظهر إشعار للمكالمات المرفوضة.</string>
+    <string name="set_skip_log">عدم التسجيل في سجل الهاتف</string>
+    <string name="set_skip_log_desc">لا تظهر المكالمات المرفوضة في سجل تطبيق الهاتف (تبقى في سجل هذا التطبيق).</string>
+    <string name="set_section_system">النظام</string>
+    <string name="set_keepalive">إبقاء التطبيق يعمل دائمًا</string>
+    <string name="set_keepalive_desc">إشعار صامت دائم يمنع النظام من إيقاف التطبيق.</string>
+
+    <string name="ob1_title">تطبيق فحص المكالمات</string>
+    <string name="ob1_body">اجعل التطبيق «تطبيق فحص المكالمات» حتى يستطيع رفض مكالمات الشبكة. تطبيق الهاتف من سامسونج يبقى كما هو.</string>
+    <string name="ob2_title">جهات الاتصال والإشعارات</string>
+    <string name="ob2_body">إذن جهات الاتصال ضروري حتى تُفحص مكالمات الأسماء المحفوظة وتعمل المفضلة ★.</string>
+    <string name="ob3_title">واتساب والبقاء في الخلفية</string>
+    <string name="ob3_body">الوصول للإشعارات يسمح برفض مكالمات واتساب والتطبيقات. والاستثناء من توفير البطارية يمنع النظام من إيقاف التطبيق.</string>
+    <string name="ob4_title">أضف أول رقم مسموح</string>
+    <string name="ob4_body">أضف رقمًا الآن أو لاحقًا. كل من لا يوجد في القائمة سيُرفض.</string>
+    <string name="ob_step">الخطوة %1$d من %2$d</string>
+    <string name="ob_added">أُضيف: %1$s</string>
+    <plurals name="ob_starred_count">
+        <item quantity="zero">لا توجد مفضلة ★.</item>
+        <item quantity="one">ولديك جهة مفضلة ★ واحدة سيُسمح لها تلقائيًا.</item>
+        <item quantity="two">ولديك جهتان مفضلتان ★ سيُسمح لهما تلقائيًا.</item>
+        <item quantity="few">ولديك %d من المفضلة ★ سيُسمح لهم تلقائيًا.</item>
+        <item quantity="many">ولديك %d من المفضلة ★ سيُسمح لهم تلقائيًا.</item>
+        <item quantity="other">ولديك %d من المفضلة ★ سيُسمح لهم تلقائيًا.</item>
+    </plurals>
+    <string name="back">السابق</string>
+    <string name="next">التالي</string>
+    <string name="finish">إنهاء</string>
+
+    <string name="prefix_title">السماح ببادئة</string>
+    <string name="prefix_explain">كل رقم يبدأ بهذه البادئة سيُسمح له. مثال: 920 لأرقام الشركات الموحدة، أو 01 لكل الأرقام الأرضية.</string>
+    <string name="prefix_field">البادئة</string>
+    <string name="prefix_hint">920 أو 01 أو 9661</string>
+    <string name="prefix_help_empty">اكتب بادئة أو اختر من الاقتراحات</string>
+    <string name="prefix_invalid">بادئة غير صالحة</string>
+    <string name="prefix_result">سيُسمح لكل رقم يبدأ بـ ‎%1$s</string>
+    <string name="prefix_label_optional">وصف (اختياري)</string>
+    <string name="suggestions">اقتراحات</string>
+    <string name="preset_920">الأرقام الموحدة (شركات وجهات حكومية)</string>
+    <string name="preset_800">الأرقام المجانية</string>
+    <string name="preset_01">كل الأرقام الأرضية السعودية</string>
+    <string name="preset_011">أرضي الرياض والوسطى</string>
+    <string name="preset_012">أرضي مكة وجدة والطائف</string>
+    <string name="preset_013">أرضي الشرقية</string>
+    <string name="preset_014">أرضي المدينة وتبوك والشمال</string>
+    <string name="preset_016">أرضي القصيم وحائل</string>
+    <string name="preset_017">أرضي عسير وجازان ونجران</string>
+    <string name="preset_05">كل الجوالات السعودية</string>
+    <string name="preset_966">كل الأرقام السعودية (رفض الدولية فقط)</string>
+    <string name="preset_uae">الإمارات</string>
+    <string name="preset_kw">الكويت</string>
+    <string name="preset_bh">البحرين</string>
+    <string name="preset_qa">قطر</string>
+    <string name="preset_om">عُمان</string>
+</resources>

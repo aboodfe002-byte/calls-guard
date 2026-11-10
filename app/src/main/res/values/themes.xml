@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The UI is Jetpack Compose; this window theme only sets the background before Compose draws. -->
+    <style name="Theme.FamilyCallGuard" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
